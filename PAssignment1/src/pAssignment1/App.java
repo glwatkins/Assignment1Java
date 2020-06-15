@@ -6,7 +6,7 @@ public class App {
 
 	public App() {
 	}
-	
+	//controls the loading of the gui and the application
 	public static void main(String[] args) {
 		ArrayList<Celebrant> celebrantData = new ArrayList<Celebrant>() ;
 		Loadcelebrant.load(celebrantData);

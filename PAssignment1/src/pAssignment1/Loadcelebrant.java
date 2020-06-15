@@ -6,7 +6,9 @@ import java.util.ArrayList;
 
 public class Loadcelebrant {
 
+	//loads the dataset from csv
 public static void load(ArrayList<Celebrant> celebrant) {
+	//fields
 	String fname;
 	String lname;
 	boolean marragecelebrant;

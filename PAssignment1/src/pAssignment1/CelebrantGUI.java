@@ -54,6 +54,7 @@ public class CelebrantGUI extends JFrame {
 	private final JButton bnext = new JButton("Next");
 	private final JTable table = new JTable();
 	private final JScrollPane scrollPane = new JScrollPane();
+	//gets the table to be created in the desired fassion
 	private DefaultTableModel tm = new DefaultTableModel(
 			new Object[][] {
 			},
@@ -141,6 +142,8 @@ public class CelebrantGUI extends JFrame {
 		salarytext.setBounds(135, 214, 96, 20);
 		
 		panel.add(salarytext);
+		
+		//decreases the count when viewing the records can not go below 0
 		bprev.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (count > 0) {
@@ -152,6 +155,7 @@ public class CelebrantGUI extends JFrame {
 		bprev.setBackground(SystemColor.info);
 		bprev.setBounds(46, 277, 89, 23);
 		
+		//increases the count number but not passed the last record number
 		panel.add(bprev);
 		bnext.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -167,6 +171,7 @@ public class CelebrantGUI extends JFrame {
 		panel.add(bnext);
 		panel_1.setBackground(new Color(255, 255, 240));
 		
+		//creating the pie graph
 		setDataText();		
 		DefaultPieDataset pieGraph = new DefaultPieDataset();
 		for (int i = 0; i < 50; i++) {
@@ -193,6 +198,7 @@ public class CelebrantGUI extends JFrame {
 	}
 	
 	public void drawTable() {
+		//drawing the table and setting the fields as the data
 		tm.setRowCount(0);
 		for (int i = 0; i < 10046; i++) {
 			Object[] object = new Object[8];
@@ -208,6 +214,7 @@ public class CelebrantGUI extends JFrame {
 		}
 	}
 	public void setDataText() {
+		//sets the data to be displayed for the records
 		fnametext.setText(celebrantData.get(count).getFname());
 		lnametext.setText(celebrantData.get(count).getLname());
 		marageceltext.setText(Boolean.toString((celebrantData.get(count).isMarragecelebrant())));

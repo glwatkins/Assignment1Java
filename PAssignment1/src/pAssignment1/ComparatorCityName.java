@@ -3,7 +3,7 @@ package pAssignment1;
 import java.util.Comparator;
 
 public class ComparatorCityName  implements Comparator<Celebrant>{
-
+//comparator, meant to order the data, not positive if it works correctly
 		public int compare(Celebrant m1, Celebrant m2) {
 			if (m1.getResadentualcity().equals(m2.getResadentualcity())){
 				if(m1.getLname().equals(m2.getLname())) {
