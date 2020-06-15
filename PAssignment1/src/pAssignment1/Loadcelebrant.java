@@ -16,10 +16,12 @@ public static void load(ArrayList<Celebrant> celebrant) {
 	int age;
 	int salary;
 	String line;
-	
+	int i = 0;
 	try {
-		BufferedReader in = new BufferedReader (new FileReader("celebrantData"));
+		BufferedReader in = new BufferedReader (new FileReader("celebrantData.csv"));
 		while ((line = in.readLine()) != null) {
+				System.out.println(i);
+				i++;
 				String[] fields = line.split(",");
 				fname= fields[0];
 				lname= fields[1];
@@ -30,11 +32,10 @@ public static void load(ArrayList<Celebrant> celebrant) {
 				age= Integer.parseInt(fields[6]);
 				salary= Integer.parseInt(fields[7]);
 				celebrant.add(new Celebrant(fname, lname, marragecelebrant, civilnionceleebrant, canzmember, resadentualcity, age, salary));
-	}in.close();
-	}
+	}}
 	
 	catch (Exception ex) {
-		System.out.println("problem with file");
+		System.out.println(ex.getMessage());
 	}
 	
 }

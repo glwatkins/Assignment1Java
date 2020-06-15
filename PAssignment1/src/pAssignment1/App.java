@@ -8,11 +8,11 @@ public class App {
 	}
 	
 	public static void main(String[] args) {
-		ArrayList<Celebrant> celebrant = new ArrayList<Celebrant>() ;
-			Loadcelebrant.load(celebrant);
+		ArrayList<Celebrant> celebrantData = new ArrayList<Celebrant>() ;
+		Loadcelebrant.load(celebrantData);
 			
-			CelebrantGUI gui = new CelebrantGUI (celebrant);
-			gui.setVisible(true);
+		CelebrantGUI gui = new CelebrantGUI(celebrantData);
+		gui.setVisible(true);
 	}
 	
 }

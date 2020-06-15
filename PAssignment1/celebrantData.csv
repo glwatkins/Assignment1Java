@@ -1477,7 +1477,7 @@ Helen,May,TRUE,TRUE,TRUE,Wanaka,20,73723
 Margaret,Chapman,TRUE,TRUE,TRUE,New Plymouth,29,22829
 Rody,O'Reilly,TRUE,TRUE,FALSE,Orewa,46,1434
 John,Love,TRUE,FALSE,FALSE,Auckland,62,92362
-Rebecca,Griffin,TRUE,TRUE,FALSE,"South Wairarapa, Wellington",23,50541
+Rebecca,Griffin,TRUE,TRUE,FALSE,Wellington,23,50541
 Sarah,Richmond,TRUE,FALSE,FALSE,Hamilton,5,34281
 Te Hura,Marsh,TRUE,FALSE,FALSE,Waiomio,28,32905
 Terry,Fergusson,TRUE,TRUE,FALSE,Rotorua,43,62878
@@ -1855,7 +1855,7 @@ Megan,Syme,TRUE,TRUE,FALSE,Feilding,36,50757
 Liz,Brook,TRUE,TRUE,TRUE,Christchurch,53,81228
 Alden,Thomas,TRUE,TRUE,FALSE,Ashburton,39,31792
 Leita,Joy,TRUE,TRUE,FALSE,Ashburton,27,82573
-Jessica,Holdaway,TRUE,FALSE,FALSE,"Kaipara, Northland",21,8774
+Jessica,Holdaway,TRUE,FALSE,FALSE,Northland,21,8774
 Agnes,Cheung,TRUE,FALSE,FALSE,Auckland,16,97942
 Cate,Fraser-Irwin,TRUE,TRUE,FALSE,Auckland,3,90976
 Beverley,Revell,TRUE,TRUE,TRUE,Mangawhai Heads,55,29216
@@ -4679,7 +4679,7 @@ Nathan,Holt,TRUE,FALSE,FALSE,Auckland,20,1568
 Brett,Walker,TRUE,FALSE,FALSE,Napier,33,826
 David,Rolinson,TRUE,FALSE,FALSE,Auckland,55,98556
 Janet,Barraclough,TRUE,FALSE,FALSE,Queenstown,65,65862
-George,Entwisle,TRUE,FALSE,FALSE,"Cromwell, Otago.",46,83888
+George,Entwisle,TRUE,FALSE,FALSE,Otago,46,83888
 Elizabeth,Farrands,TRUE,FALSE,FALSE,Auckland,58,30508
 Michael,Lind,TRUE,FALSE,FALSE,Oamaru,50,94738
 Key,Tee,TRUE,FALSE,FALSE,Auckland,50,21869
@@ -6895,7 +6895,7 @@ Kenneth,Wall,TRUE,FALSE,FALSE,Hamilton,4,17413
 Patrick,Keane,TRUE,FALSE,FALSE,Hamilton,25,75341
 Raphael,Lobo,TRUE,FALSE,FALSE,Auckland,0,63804
 Maxwell,Garrity,TRUE,FALSE,FALSE,Lower Hutt,26,88288
-Adrianne,Stewart,TRUE,FALSE,FALSE,"Te Anau, Southland",63,20008
+Adrianne,Stewart,TRUE,FALSE,FALSE,Southland,63,20008
 Urima,Moasegi,TRUE,FALSE,FALSE,Auckland,10,42037
 Vivienne,Galletly,TRUE,FALSE,FALSE,Milton,15,15224
 Brett,Roberts,TRUE,FALSE,FALSE,Balclutha,70,75268
@@ -10035,7 +10035,7 @@ Leon,Finn,TRUE,FALSE,FALSE,Cambridge,40,41940
 Keith,Allen,TRUE,FALSE,FALSE,Masterton,9,64361
 Glenn,Melville,TRUE,FALSE,FALSE,Auckland,56,74366
 Emma,Love,TRUE,TRUE,TRUE,Takanini,35,77007
-Tui,Kapa,TRUE,TRUE,TRUE,"Ngataki, Kaitaia",42,24070
+Tui,Kapa,TRUE,TRUE,TRUE,Kaitaia,42,24070
 Phil,Costello,TRUE,FALSE,FALSE,Wellington,70,40395
 Anaru,Ryall,TRUE,FALSE,FALSE,Lower Hutt,62,93387
 Kenneth,Johnson,TRUE,FALSE,FALSE,Auckland,55,47107
