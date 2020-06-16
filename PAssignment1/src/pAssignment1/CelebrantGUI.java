@@ -3,6 +3,7 @@ package pAssignment1;
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Locale;
 
 import javax.swing.JButton;
@@ -29,6 +30,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class CelebrantGUI extends JFrame {
+	private Celebrant celebrant; 
+
 	private ArrayList<Celebrant> celebrantData;
 	private final JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 	private final JPanel panel = new JPanel();
@@ -169,6 +172,18 @@ public class CelebrantGUI extends JFrame {
 		bnext.setBounds(142, 277, 89, 23);
 		
 		panel.add(bnext);
+		
+		JButton bsort = new JButton("Sort");
+		bsort.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ComparatorCityName comp = new ComparatorCityName();				
+				Collections.sort(celebrantData, comp);
+				//celebrant.sorting();
+				setDataText();
+			}
+		});
+		bsort.setBounds(254, 277, 89, 23);
+		panel.add(bsort);
 		panel_1.setBackground(new Color(255, 255, 240));
 		
 		//creating the pie graph

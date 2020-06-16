@@ -1,6 +1,11 @@
 package pAssignment1;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class Celebrant {
+//week 12 comparator, collections.sort
+private ArrayList<Celebrant> celebrantData;
 private String fname;
 private String lname;
 private boolean marragecelebrant;
@@ -93,8 +98,6 @@ public String toString() {
 			+ ", civilnionceleebrant=" + civilnionceleebrant + ", canzmember=" + canzmember + ", resadentualcity="
 			+ resadentualcity + ", age=" + age + ", salary=" + salary + "]";
 }
-
-
 
 }
 
